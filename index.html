@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge One - Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="contenedor-prin">
+        <img src="img/Vector (2).png" class="vec1">
+        <div class="tarjetaPrincipal">
+            <textarea rows="10" cols="40" class="inputMsg" type="text" id="mensaje" placeholder="Ingrese su Mensaje"></textarea>
+            
+            <div class="alerta">
+                <img src="img/Vector.png" class="imgvector">
+                <h6 class="h6vector">Solo letras en minúsculas y sin acentos</h6>
+            </div>
+            
+            <button class="btnEnc" id="encriptador">Encriptador</button>
+            <button class="btnDes" id="desencriptar">Desencriptar</button>
+        </div>
+        <div class="tarjeta-secu">
+            <textarea disabled rows="10" cols="40" class="inputRpt" type="text" id="resultado"></textarea>
+            <button class="btncop-esc" id="copiar">Copiar</button>
+        </div>
+        <div class="tarjeta-secu-2" id="tarjeta-secu-o">
+            <img src="img/Muñeco.jpg" class="img_muñeco">
+            <p class="text1">Ningún mensaje fue encontrado</p>
+            <p class="text2">Ingresa el texto que desees encriptar o desencriptar</p>
+        </div>
+
+        <div class="alertaname">
+            <h6 class="h6dat">Jose Luis Manuel Pita Nicho // Cel: +51 936573150</h6>
+            <h6 class="h6dat">Perú // Grupo 3 // Perú</h6>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
